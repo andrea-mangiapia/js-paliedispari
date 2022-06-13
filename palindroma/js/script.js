@@ -4,7 +4,7 @@
 
 // chiediamo all'utente di inserire una parola
 const userText = prompt('Inserisci una parola')
-// varie
+// variabile per identificare se la parola inserita e palindroma o no
 let palindromaText = palindroma(userText);
 
 // creo funzione per capire se la parola inserita è palindroma
